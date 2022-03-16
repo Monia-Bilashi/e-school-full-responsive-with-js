@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 99%;
+    }
+    header {
+        width: 100%;
+    }
+    .h {
+        width: 75%;
+        /* background-color: rgb(183, 236, 236); */
+    }
+    .t-n {
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .t-n-l {
+        width: 35%;
+    }
+    .t-n-l img {
+        width: 100%;
+    }
+    .t-n-menu {
+        width: 50%;
+        /* background-color: azure; */
+    }
+    .menu-bar {
+        width: 100%;
+        float: right;
+    }
+    .menu-item {
+        width: 40%;
+        display: none;
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+    .menu-item ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-item ul li {
+        width: 50%;
+        margin-bottom: 2px;
+        border-radius: 10px;
+    }
+    .menu-item ul li a {
+        text-decoration: none;
+        font-size: 9px;
+        padding: 1px 2px;
+        color: black;
+        display: block;
+    }
+    .toggle {
+        display: block;
+        width: 100%;
+        position: relative;
+        left: 120px;
+    }
+    .togg i {
+        width: 90%;
+    }
+    .h-c-b {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .h-b {
+        width: 80%;
+    }
+    .h-b-i {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .h-b img {
+        width: 100%;
+    }
+    .h-c {
+        width: 80%;
+    }
+    .h-c h2 {
+        color: black;
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+}

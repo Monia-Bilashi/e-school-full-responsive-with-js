@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 99%;
+    height: 800px;
+    /* background-color: aquamarine; */
+    margin: 5px auto;
+    box-shadow: 0px 0px 2px 3px lightgray;
+}
+
+header {
+    width: 100%;
+    /* height: 350px; */
+    background-color: #F0FFF0;
+}
+
+.h {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+.t-n {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.t-n-l {
+    width: 20%;
+}
+
+.t-n-l img {
+    width: 100%;
+}
+
+.t-n-menu {
+    width: 45%;
+    /* background-color: aqua; */
+    overflow: hidden;
+}
+
+.menu-item {
+    width: 100%;
+    /* background-color: aliceblue; */
+    float: right;
+}
+
+.menu-item ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item ul li {
+    width: 100%;
+    padding: 5px 12px;
+    text-align: center;
+    list-style-type: none;
+    /* background-color: gray; */
+}
+
+.menu-item ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+}
+
+.menu-item ul li:last-child {
+    color: white;
+    background-color: #21B573;
+    border-radius: 20px;
+}
+
+.menu-item ul li:last-child a {
+    color: white;
+}
+
+.menu-item ul li:hover {
+    background-color: #21B573;
+    border-radius: 20px;
+}
+
+.menu-item ul li a:hover {
+    color: white;
+}
+
+.menu-item ul li:last-child:hover {
+    background-color: gray;
+}
+
+.toggle {
+    display: none;
+}
+
+.h-c-b {
+    width: 100%;
+    /* height: 300px; */
+    margin: auto;
+    /* background-color: #21B573; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.h-c {
+    width: 40%;
+    /* height: 300px; */
+    /* border: 2px solid black; */
+}
+
+.h-c-1-p {
+    margin-bottom: 15px;
+}
+
+.h-c-1-p a {
+    color: #F98458;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.h-c h2 {
+    color: black;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.h-c h2::after {
+    content: " any schedule";
+    color: #21B573;
+}
+
+.h-c-2-p {
+    font-size: 12px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.h-c-3-p a {
+    background-color: #21B573;
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+.h-c-3-p a:hover {
+    background-color: gray;
+}
+
+.h-b {
+    width: 60%;
+    /* height: 100%; */
+    /* border: 2px solid black; */
+}
+
+.h-b-i {
+    width: 90%;
+}
+
+.h-b img {
+    width: 100%;
+}

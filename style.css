@@ -171,3 +171,42 @@ header {
 .h-b img {
     width: 100%;
 }
+
+.main-container {
+    background-color: #FFFFFF;
+}
+
+.testimonial {
+    width: 100%;
+}
+
+.test-con {
+    background-color: blue;
+}
+
+.footer {
+    width: 100%;
+    color: #A4A3A8;
+    background-color: #282531;
+}
+
+.up-footer {
+    width: 80%;
+    font-size: 20px;
+    line-height: 30px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.uf-cousre ul li {
+    list-style-type: none;
+}
+
+.lower-footer {
+    text-align: center;
+}
